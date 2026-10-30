@@ -1,0 +1,25 @@
+# Versions used for the paper (Python 3.10, NVIDIA Jetson AGX Orin, CUDA 12.6).
+# Install PyTorch and torchvision for your CUDA version first (https://pytorch.org); the
+# versions below were used.
+torch==2.11.0
+torchvision==0.26.0
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.15.3
+scikit-learn==1.7.2
+opencv-python-headless==5.0.0.93
+pillow==12.3.0
+tqdm==4.70.1
+hydra-core==1.3.7
+iopath==0.1.10
+huggingface_hub==0.36.2
+# EdgeTAM
+timm==1.0.30
+# SAM 3
+einops==0.8.2
+ftfy==6.1.1
+pycocotools==2.0.11
+# VLM verification gate
+transformers==4.57.6
+accelerate==1.15.0
+qwen-vl-utils==0.0.14
